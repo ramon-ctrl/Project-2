@@ -1,17 +1,17 @@
-/*header*/
-
-header{
-    height: 10vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.Company {
+    max-width: 100%;
+    width: 30px;
+    height: 100%;
 }
 
 .navcontainer{
     width: 50%;
+    background-color: black;
+}
+
+.Bar {
     display: flex;
     justify-content: space-between;
-    background-color: black;
 }
 
 .link{
