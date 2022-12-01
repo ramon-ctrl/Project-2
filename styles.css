@@ -1,0 +1,22 @@
+/*header*/
+
+header{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navcontainer{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.link{
+    width: 20%;
+}
+.logo{
+    width: 30%;
+}
