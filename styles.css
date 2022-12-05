@@ -1,22 +1,20 @@
-.Company {
-    max-width: 100%;
-    width: 30px;
-    height: 100%;
+body {
+
 }
 
-.navcontainer{
-    width: 50%;
-    background-color: black;
-}
-
-.Bar {
-    display: flex;
-    justify-content: space-between;
-}
-
-.link{
-    width: 20%;
-}
 .logo{
-    width: 30%;
+    width:35%;   
 }
+
+
+
+.navcontainer {
+font-size: larger;
+margin-left: 50%;    
+}
+
+.checkviewpage {
+  margin-bottom: 5%;
+  margin-right: 5%;
+}  
+  
