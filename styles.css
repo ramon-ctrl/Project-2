@@ -1,20 +1,50 @@
-body {
-
+body{
+  margin:0;
 }
 
-.logo{
-    width:35%;   
+nav>ul{
+  display: flex;
+  flex-wrap: wrap;
+  width: 66.66%;
+}
+nav>ul>li{
+  list-style: none;
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+  margin-top: 5%;
+}
+a>img{
+  width:40%;
+}
+nav{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #222222;
+}
+nav>ul>li>a{
+  text-decoration: none;
+  color: white;
+  font-size: 2em;
+}
+
+nav>ul>li>a:hover{
+  color: rgb(64, 64, 153);
+  text-decoration: underline;
 }
 
 
 
-.navcontainer {
-font-size: larger;
-margin-left: 50%;    
-}
 
-.checkviewpage {
-  margin-bottom: 5%;
-  margin-right: 5%;
-}  
-  
+
+
+
+
+
+@media (max-width:800px){
+  a>img{
+    width:60%;
+    margin-left: 20%;
+    margin-right:20%;
+  }
+}
