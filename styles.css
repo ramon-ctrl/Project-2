@@ -2,6 +2,10 @@ body{
   margin:0;
 }
 
+* {
+  font-size: 18px;
+}
+
 nav>ul{
   display: flex;
   flex-wrap: wrap;
@@ -31,6 +35,44 @@ nav>ul>li>a{
 nav>ul>li>a:hover{
   color: rgb(64, 64, 153);
   text-decoration: underline;
+}
+/* Note: Hello, so I was not able to finish this area in time, so I am going to explain what I did here. Pretty much I made 3 divs inside a class called "AboutAndImage", and there is a class called "padding" which is surrounding it. I was going to try and move the image placeholder to the left using "margin right," however doing that seems to cause issues. I tried to make this recent code from 12-7-2022 the simplest I could? Hopefully it is not too hard to read, feel free to delete my stuff (Everyone down below besides the media quarry) and find a better way. Thanks, Mason.  */
+
+.padding {
+  background-color: rgb(157, 172, 172);
+  height: 40vh;
+}
+
+.AboutAndImage {
+  display: flex;
+  align-items: center;
+}
+
+.AboutAndImage div:nth-child(1){
+  background-color: aqua;
+  margin-left: 10px;
+  margin-top: 30px;
+  display: flex;
+  width: 50%;
+  height:350px ;
+}
+
+.AboutAndImage div:nth-child(2){
+  background-color: aqua;
+  margin-top: 20px;
+  display: flex;
+  width: 50%;
+  height:200px ;
+}
+
+.AboutAndImage div:nth-child(3){
+  background-color: aqua;
+  margin-bottom: 250px;
+  margin-right: 0px;
+
+
+  width: 275px;
+  height:50px ;
 }
 
 
