@@ -38,7 +38,7 @@ nav>ul>li>a:hover{
 }
 /* Note: Hello, so I was not able to finish this area in time, so I am going to explain what I did here. Pretty much I made 3 divs inside a class called "AboutAndImage", and there is a class called "padding" which is surrounding it. I was going to try and move the image placeholder to the left using "margin right," however doing that seems to cause issues. I tried to make this recent code from 12-7-2022 the simplest I could? Hopefully it is not too hard to read, feel free to delete my stuff (Everyone down below besides the media quarry) and find a better way. Thanks, Mason.  */
 
-.padding {
+/* .padding {
   background-color: rgb(157, 172, 172);
   height: 40vh;
 }
@@ -75,18 +75,53 @@ nav>ul>li>a:hover{
   height:50px ;
 }
 
-
-
-
-
-
-
-
-
 @media (max-width:800px){
   a>img{
     width:60%;
     margin-left: 20%;
     margin-right:20%;
   }
+} */
+
+.column {
+  display:flex;
+  flex-direction:column;
+}
+
+.row {
+  display:flex;
+  flex-direction:row;
+}
+
+.hero {
+  background-image: url(./Images/HomePage\ Hero\ image.jpg);
+  width:100%;
+  height:auto;
+}
+
+.images img {
+  height:60%;
+  width:50%;
+  margin-bottom:15px;
+}
+
+.width-80 {
+  width:80%;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-evenly;
+  align-items:center
+}
+
+.width-38 {
+  width:38%;
+}
+
+main {
+  display:flex;
+  justify-content:center;
+}
+
+.three {
+  width:33%
 }
